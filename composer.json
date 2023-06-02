@@ -1,0 +1,29 @@
+{
+    "name": "michael-lurquin/php-google-json-ld",
+    "description": "Structured data JSON-LD on Google Search",
+    "keywords": [
+        "json-ld",
+        "google",
+        "search"
+    ],
+    "homepage": "https://github.com/michael-lurquin/php-google-json-ld",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MichaelLurquin\\PhpGoogleJsonLd\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michaël Lurquin",
+            "email": "michael.lurquin@gmail.com",
+            "homepage": "https://michael-lurquin.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
